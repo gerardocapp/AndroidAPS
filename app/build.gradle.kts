@@ -80,6 +80,7 @@ fun allCommitted(): Boolean {
     }
 }
 
+
 android {
 
     namespace = "app.aaps"
