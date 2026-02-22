@@ -5,7 +5,6 @@ import java.util.Date
 plugins {
     alias(libs.plugins.ksp)
     id("com.android.application")
-    id("kotlin-android")
     id("com.google.gms.google-services")
     id("com.google.firebase.crashlytics")
     id("android-app-dependencies")
@@ -232,4 +231,3 @@ if (isMaster() && !allCommitted()) {
 
     throw GradleException("There are uncommitted changes. Clone sources again as described in wiki and do not allow gradle update")
 }
-
